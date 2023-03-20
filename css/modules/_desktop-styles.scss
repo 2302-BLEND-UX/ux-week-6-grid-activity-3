@@ -1,0 +1,10 @@
+@media screen and (min-width: 1024px) {
+    #hero-grid {
+        grid-template-areas:
+            "hero hero tech"
+            "hero hero media"
+            "hero hero ip";
+    }
+
+    //  end of media query   
+}

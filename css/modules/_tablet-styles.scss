@@ -1,0 +1,54 @@
+@media screen and (min-width: 768px) {
+
+    #insights-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "header  blurb blurb"
+            "header  blurb blurb"
+            "header  blog-tech media-tech";
+
+        #header {
+            grid-area: header;
+        }
+
+        #blurb {
+            grid-area: blurb;
+            padding: 90px;
+        }
+
+        #blog-tech {
+            grid-area: blog-tech;
+        }
+
+        #media-tech {
+            grid-area: media-tech;
+        }
+    }
+
+    #hero-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "hero hero hero"
+            "tech media ip";
+    }
+
+    #hero {
+        grid-area: hero;
+    }
+
+    #tech {
+        grid-area: tech;
+    }
+
+    #media {
+        grid-area: media;
+    }
+
+    #ip {
+        grid-area: ip;
+    }
+
+    //  end of media query   
+}
